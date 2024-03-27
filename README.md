@@ -17,5 +17,6 @@ principal;
   ### Tela principal:
 
 <figure>
-  <img src="assets/tela_principal.png" alt="Tela Principal">
+
+
 </figure>
