@@ -45,9 +45,9 @@ public class Recorde {
     
     @Override
     public String toString() {
-     DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+     DateTimeFormatter formatDate = DateTimeFormatter.ofPattern("dd/MM/yyyy");
      LocalDate data = dataRecorde;
-    return "Nome: " + nome + ", DataRecorde: " + data + ", Tempo: " + tempo + " segundos";
+    return "Nome: " + nome + ", DataRecorde: " + formatDate.format(data) + ", Tempo: " + tempo + " segundos";
     } 
 
 }

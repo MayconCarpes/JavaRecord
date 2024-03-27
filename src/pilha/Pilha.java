@@ -42,7 +42,7 @@ public class Pilha<T> {
     public T peek(){
         return elementos[topo];
     }
-    
+    //
     public void limpar() {
         topo = -1; 
         elementos = (T[]) new Object[10];

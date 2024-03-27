@@ -34,6 +34,7 @@ public class ManipularArquivo {
                 String nome = partes[0];
                 DateTimeFormatter format = DateTimeFormatter.ofPattern("dd/MM/yyyy");
                 LocalDate data = LocalDate.parse(partes[1], format);
+                
                 double tempo = Double.parseDouble(partes[2]);
                 pilha.push(new Recorde(data, nome, tempo));
             }
